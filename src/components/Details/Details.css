@@ -1,0 +1,31 @@
+.details_page {
+    /* margin-top: 50px; */
+    color: #fff;
+}
+.details__poster {
+    width: 100%;
+    border-radius: 7px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.details_page_contents {
+    background-image: linear-gradient(to right, rgba(12.94%, 14.90%, 22.75%, 1.00) 150px, rgba(20.39%, 22.35%, 29.02%, 0.84) 100%);
+    padding: 100px 0;
+}
+.details__title {
+    color: olive;
+}
+
+/* trailer */
+.trailer_items {
+    display: inline-block;
+    overflow-x: scroll;
+    width: 100%;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.trailer_items img {
+    margin: 0 5px;
+    object-fit: contain;
+}
